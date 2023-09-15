@@ -1,0 +1,11 @@
+.carintropic {
+    background-image: url("images/pictures/carpage.jpg");
+    background-size: 100% auto;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+  }
