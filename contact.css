@@ -1,0 +1,182 @@
+/* Big picture */
+.contactintro {
+  background-image: url("images/pictures/bmw-ix.png");
+  background-size: 100% auto;
+  width: 100%;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  background-repeat: no-repeat;
+}
+/* Special deal box */
+.specialdeal {
+  padding-left: 100px;
+  padding-right: 100px;
+  justify-content: center;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Special deal bio box */
+.dealbiobox {
+  padding: 20px;
+  width: 700px;
+}
+
+/* Special deal img */
+#dealimage {
+  height: 300px;
+  width: 500px;
+}
+
+/* Special deal bio */
+#dealbio {
+  padding-top: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+  color: #262626;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+}
+/* Sale title */
+.saleTitle {
+  text-align: center;
+  padding-bottom: 40px;
+  color: black;
+  font-size: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+/* Sale box */
+.salebox {
+  display: flex;
+  flex-direction: row;
+  align-content: space-evenly;
+  gap: 15px;
+  justify-content: center;
+}
+
+.dcards h4,
+dt,
+dd {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+/* car sale cards */
+.dcard1,
+.dcard2,
+.dcard3,
+.dcard4,
+.dcard5,
+.dcard6,
+.dcard7 {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease-in-out;
+  width: 250px;
+  height: 250px;
+  padding-bottom: 100px;
+  margin-bottom: 40px;
+}
+/* car sale cards background */
+#dcard-bg {
+  width: 250px;
+  height: 200px;
+}
+/* car sale cards info */
+.dcard-info {
+  padding: 2px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+/* bmw icon in contact */
+.bmwicon {
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+}
+/* contact box */
+.contactus {
+  margin: 40px;
+  justify-content: center;
+  background-color: rgb(73, 73, 73);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 30px;
+  gap: 30px;
+}
+/* contact section */
+.blackbox {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  height: 320px;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+}
+/* to declare white text */
+.white {
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+/* left & right side */
+.left-side,
+.right-side {
+  height: 400px;
+  width: 500px;
+}
+/* making the radio in a row */
+.row {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: row-reverse;
+}
+/* form box decoration */
+.form-container {
+  max-width: 100px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+/* input decoration */
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+/* input focus decoration */
+input:focus {
+  border: 2px solid #448bfe;
+  outline: none;
+}
+/* sub decoration */
+#sub {
+  background-color: #448bfe;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  align-self: center;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  width: 90px;
+}
+/* sub hover */
+#sub:hover {
+  transition: all 0.3s ease-in-out;
+  color: #448bfe;
+  background-color: white;
+  box-shadow: 0 0 3px #448bfe;
+}

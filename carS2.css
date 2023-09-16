@@ -1,0 +1,65 @@
+/* Section 2 Box */
+.s2box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: flex-start;
+}
+/* Section 2 Title */
+.s2Title {
+  text-align: center;
+  padding-bottom: 40px;
+  color: black;
+  font-size: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+/* Section 2 Service title */
+#s2-services-title {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-decoration: underline;
+  margin-left: 95px;
+}
+/* Section 2 cards */
+.s2cards {
+  display: flex;
+  flex-direction: row;
+  align-content: space-evenly;
+  gap: 15px;
+  justify-content: center;
+}
+.s2cards h4,
+dt,
+dd {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+/* Section 2 carbox each */
+.s2Carbox1,
+.s2Carbox2,
+.s2Carbox3,
+.s2Carbox4,
+.s2Carbox5 {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+  width: 92%;
+  padding: 30px;
+  height: 200px;
+  margin: 15px;
+  background-color: rgb(240, 240, 240);
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 15px;
+}
+/* Section 2 card info */
+.s2-card-info {
+  padding: 2px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+/* Section 2 card background */
+#s2-card-bg {
+  width: 30%;
+  height: 250px;
+}
