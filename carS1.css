@@ -1,11 +1,92 @@
+/* Big Picture */
 .carintropic {
-    background-image: url("images/pictures/carpage.jpg");
-    background-size: 100% auto;
-    width: 100%;
-    height: 650px;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    background-repeat: no-repeat;
-    margin-bottom: 30px;
-  }
+  background-image: url("images/pictures/carpage.jpg");
+  background-size: 100% auto;
+  width: 100%;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+}
+/* Section 1 Box */
+.s1box {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  justify-content: flex-start;
+}
+/* Section 1 Title */
+.s1Title {
+  text-align: center;
+  padding-bottom: 40px;
+  color: black;
+  font-size: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+/* Services title */
+#services-title {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-decoration: underline;
+  margin-left: 95px;
+}
+/* Cards Box */
+.cards {
+  display: flex;
+  flex-direction: row;
+  align-content: space-evenly;
+  gap: 15px;
+  justify-content: center;
+}
+.cards h4,
+dt,
+dd {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+/* each card design*/
+.card1,
+.card2,
+.card3,
+.card4,
+.card5 {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease-in-out;
+  width: 400px;
+  height: 400px;
+  padding-bottom: 100px;
+}
+/* each card hover*/
+.card1:hover,
+.card2:hover,
+.card3:hover,
+.card4:hover,
+.card5:hover {
+  transition: all 0.3s ease-in-out;
+  filter: none;
+  cursor: pointer;
+  width: 420px;
+  height: 420px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+  padding-bottom: 80px;
+}
+/* card info*/
+.card-info {
+  padding: 2px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+/* card background*/
+#card-bg {
+  width: 400px;
+  height: 200px;
+}
+/* card background hover */
+#card-bg:hover {
+  width: 410px;
+  height: 210px;
+}

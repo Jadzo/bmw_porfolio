@@ -1,3 +1,4 @@
+/* navbar*/
 .navbar {
   background-color: white;
   display: flex;
@@ -16,6 +17,7 @@
   list-style: none;
 }
 
+/* navbar list a decoration */
 #navbar li a {
   color: black;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -25,11 +27,49 @@
   transition: all 0.3s ease-in-out;
 }
 
+/* navbar hover decoration */
 #navbar li a:hover {
   color: #448bfe;
   transition: all 0.3s ease-in-out;
 }
+
+/* body margin */
 body {
     margin: 0;
     padding: 0;
   }
+  /* footer */
+  footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+  }
+  
+  .footer-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .footer-image-link {
+    text-decoration: none;
+    color: white;
+    transition: opacity 0.3s ease;
+  }
+  
+  .footer-image-link:hover {
+    opacity: 0.7;
+  }
+  /* footer images */
+  .footerp {
+    width: 40px;
+    height: 40px;
+  }
+  /* footer bmw image */
+  .footerbmw {
+    width: 33px;
+    height: 33px;
+  }
+  

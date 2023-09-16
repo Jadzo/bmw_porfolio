@@ -1,22 +1,22 @@
+/* Biography Box */
 .biographybox {
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    padding-bottom: 20px;
-  }
-
-  .bioimg{
-    width: 200px;
-    height: 200px;
-  }
-  #biopar{
-    width: 70%;
-    /* height: 100px; */
-    color: black;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 20px;
+}
+/* Biography Image */
+.bioimg {
+  width: 200px;
+  height: 200px;
+}
+/* Biography Paragraph */
+#biopar {
+  width: 70%;
+  color: black;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-size: 17px;
-    /* justify-content: ; */
-  }
+}
